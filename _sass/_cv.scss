@@ -1,9 +1,20 @@
+/* CV page description style */
+.post-description {
+  font-size: 1.5rem;
+  color: #FF5722;
+  margin-bottom: 1rem;
+}
+
 /*****************************
  * CV shared styles
  *****************************/
 
 div.container-link-button {
-  margin-right: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 table.table-cv {
@@ -76,10 +87,12 @@ div.container-links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+  text-align: left;
+  align-content: flex-start;
 }
 
 /*****************************
@@ -90,8 +103,10 @@ div.container-pdf {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
+  text-align: left;
+  align-content: flex-start;
 }
 
 /*****************************
