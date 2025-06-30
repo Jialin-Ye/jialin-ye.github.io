@@ -26,6 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I am from China and hold a Master’s degree in Neuroscience from the University of the Chinese Academy of Sciences. I spent five years at the Brain Cognition and Brain Disease Institute (BCBDI), Shenzhen Institute of Advanced Technology (SIAT), where my research in Feng Wang’s lab focused on cell type-specific neuronal circuits in the superior colliculus that govern visually-evoked innate behaviors. While exploring the neural mechanisms underlying flexible behavior, I recognized the need for precise and efficient methods to quantify behavior, which inspired me to shift my focus toward AI-driven approaches. My current goal is to use machine learning techniques to quantify movement/sub-movement level behaviors and map them to large-scale neuronal activity signals, providing deeper insights into the computational and control mechanisms of neural circuits.
 
 ## Research Interest
 

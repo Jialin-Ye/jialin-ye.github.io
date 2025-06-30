@@ -4,7 +4,6 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'wdm', '>=0.1.0'
     gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
@@ -23,6 +22,7 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'classifier-reborn'  # used for content categorization during the build
+    gem 'wdm', '>= 0.1.0'
 end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
