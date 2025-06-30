@@ -4,10 +4,6 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-<<<<<<< Updated upstream
-=======
-    gem 'wdm', '>=0.1.0'
->>>>>>> Stashed changes
     gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
