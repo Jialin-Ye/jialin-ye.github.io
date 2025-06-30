@@ -192,19 +192,21 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
-.profile {
+
+
+ .profile {
   width: 100%;
+  margin-top: -5rem;
+}
 
-  .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
-
-    p {
-      display: inline-block;
-      margin: 0;
-    }
-  }
+.profile .more-info {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: monospace;
+}
+.profile .more-info p {
+  display: inline-block;
+  margin: 0;
 }
 
 .profile.float-right {
@@ -218,11 +220,11 @@ ul.task-list input[type="checkbox"] {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
-
-    .address {
-      p {
-        display: block;
-      }
+    margin-top: -10rem;
+  }
+  .profile .address {
+    p {
+      display: block;
     }
   }
 }
@@ -554,7 +556,14 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 2.5rem;
+  }
+  h2 {
+    color: var(--global-text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
   }
 }
 

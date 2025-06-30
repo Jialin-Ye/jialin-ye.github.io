@@ -1,157 +1,173 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jialin Ye",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "thisisyejialin@outlook.com",
+    "phone": "Do You Really Wanna Know?",
+    "url": "https://jialinye.github.io/",
+    "summary": "A Chinese-born Neuroscientist, man of versatile tastes, having unrealistic fantasies about the brain",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "address": "IJzerenmolenstraat 30",
+      "postalCode": "Leuven 3000",
+      "city": "Leuven",
+      "countryCode": "Belgium",
+      "region": "Flemish Brabant"
+    }
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "institution": "Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology",
+      "position": "Research Assistant",
+      "location": "Shenzhen, China",
+      "url": "https://bcbdi.siat.ac.cn/",
+      "startDate": "2019-05",
+      "endDate": "2024-11",
+      "summary": "Studying the behavior patterns of spontaneous behaviors of mice under different conditions and building up the analytical pipeline for 3D elaborate animal behavior data analysis",
+      "highlights": ["3D animal behavior data analysis",  "Visually-evoked innate fear behavior"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "NeuroElectronics Research Flanders (NERF), Leuven, Belgium",
+      "university": "Katholieke Universiteit te Leuven (KU Leuven)",
+      "location": "Leuven, Belgium",
+      "supervisor": "Karl Farrow",
+      "url": "https://farrowlab.sites.vib.be/en/research",
+      "studyField": "Neuroscience",
+      "studyType": "PhD student",
+      "startDate": "2024-11",
+      "endDate": "Present",
+      "projects": [
+        "The mechanism of the subcortical network balances the output of flexible defensive behavior",
+        "Visual defensive behavior patterns across different species (C567BL/6J, Peromyscus)"
+      ]
+    },
+    {
+      "institution": "Brain Cognition and Brain Disease Institute, Shenzhen Institute of Advanced Technology",
+      "university": "University of Chinese Academy of Sciences, Beijing, China",
+      "location": "Shenzhen, China",
+      "supervisor": ["Feng Wang","Liping Wang"],
+      "url": "https://suat-sz.edu.cn/info/1166/2105.htm",
+      "studyField": "Neuroscience",
+      "studyType": "Master",
+      "GPA": "3.84/4.00",
+      "startDate": "2019-09",
+      "endDate": "2022-05",
+      "projects": [
+        "Cellular-specific neuronal circuits of visually-evoked innate fear behavior",
+        "Applying a machine learning framework to clarify the spatiotemporal behavior pattern at the movement level"
+      ],
+      "Thesis": "Cell type-specific endocannabinoid system superior colliculus modulates visual innate fear behavior"
+    },
+    {
+      "institution": "College of Life Sciences",
+      "university": "South Normal China University, Guangzhou, China",
+      "url": "https://life.scnu.edu.cn/English/",
+      "location": "Guangzhou, China",
+      "studyField": "Biotechnology",
+      "studyType": "Bachelor",
+      "GPA": "4.02/5.00",
+      "startDate": "2015-09",
+      "endDate": "2019-05",
+      "courses": [
+        "Molecular biology skills, including DNA purification, primer design, PCR, Westen blot, and ELISA",
+        "Basic biology knowledge, Bioinformatics, Genetic biology, Molecular biology, Biochemistry"
+      ],
+      "Thesis": "The characteristic SNPs of various evolutionary lineages of human papillomavirus type 16"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Full PhD Scholarship by China Scholarship Council (CSC)",
+      "date": "2024-07"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Best Poster Award of academic annual conference in Chinese Association for Physiological Sciences",
+      "date": "2023-10"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Second prize of the annual academic conference in Brain Cognition and Brain Disease Institute",
+      "date": "2023-05"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "title": "Merit Student Award of the University of Chinese Academy of Sciences",
+      "date": "2021-10"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "title": "Merit Student Award of the University of Chinese Academy of Sciences",
+      "date": "2019-10"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "Academic Excellence Award Scholarship at South Normal China University",
+      "date": "2018-05"
+    },
+    {
+      "title": "DBD Encouragement Scholarship and Grants at Beijing DBN Science&Technology Group",
+      "date": "2017-10"
+    },
+    {
+      "title": "Comprehensive Scholarship at South Normal China University",
+      "date": "2017-05"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Hierarchical Behavioral Analysis Framework (HBAF) as a platform for standardized quantitative identification of behaviors",
+      "publisher": "Cell Reports",
+      "releaseDate": "2025-02-25",
+      "url": "https://doi.org/10.1016/j.celrep.2025.115239",
+      "summary": "In this paper, we propose a framework for the standardized and quantitative identification of behaviors across multiple hierarchical levels, termed the Hierarchical Behavioral Analysis Framework (HBAF). Using HBAF, we investigate the spontaneous behavioral patterns of mice under various experimental conditions, including acute stress models, different times of day, light exposure, and sex-related differences."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Mapping the behavioral signatures of Shank3b mice in both sexes",
+      "publisher": "Neuroscience Bulletin",
+      "releaseDate": "2024-06-20",
+      "url": "https://doi.org/10.1007/s12264-024-01237-8",
+      "summary": "Autism spectrum disorders (ASD) are neurodevelopmental disorders, and mutations in the Shank3b gene represent one of the most widely studied mouse models for ASD research. It is well established that Shank3b knockout (Shank3b -/-) mice exhibit core symptoms such as social deficits and repetitive, stereotyped behaviors. However, the spontaneous behavioral repertoire of these mice remains incompletely characterized. In this study, we employed a 3D behavioral analysis system to investigate the spontaneous behavioral features of male and female mice across three genotypes—wild-type, heterozygous (Shank3b +/-), and homozygous (Shank3b -/-)—within the same litter."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "The subthalamic corticotropin-releasing hormone neurons mediate adaptive REM sleep responses to threat",
+      "publisher": "Neuron",
+      "releaseDate": "2022-04-06",
+      "url": "https://doi.org/10.1016/j.neuron.2021.12.033",
+      "summary": "Sleep and predator defense are both essential instinctive behaviors for individual survival, yet they inherently present a degree of conflict. This study is the first to reveal a shared neural circuit that regulates both rapid eye movement (REM) sleep and innate fear responses. The emergence of this energy-efficient brain mechanism may have evolved and been reinforced through adaptation to environmental threats. The discovery of this shared circuitry suggests that REM sleep may play a previously underappreciated role in predator defense. This finding provides a potential evolutionary explanation for the well-documented clinical co-occurrence of increased REM sleep and stress-related emotional disorders."
+    },
+    {
+      "name": "Lifespan changes in cannabinoid 1 receptor mRNA expression in the female C57BL/6J mouse brain",
+      "publisher": "Journal of Comparative Neurology",
+      "releaseDate": "2022-10-14",
+      "url": "https://doi.org/10.1002/cne.25427",
+      "summary": "This study systematically mapped age-related changes in CB1 receptor (CB1R) mRNA expression across 36 brain regions in female mice, revealing region-specific trajectories—including cortical increases and subcortical decreases—highlighting the importance of age and sex as critical factors in endocannabinoid signaling."
+    },
+    {
+      "name": "Connectivity map of subthalamic corticotropin-releasing hormone neurons in the mouse brain",
+      "publisher": "Neuroscience Bulletin",
+      "releaseDate": "2022-09-05",
+      "url": "https://doi.org/10.1007/s12264-022-00939-1",
+      "summary": "In this study, the intricate neuroanatomy of CRH cell types in the mSTN with critical functions in the integration of stress responses and sleep/wake states is identified for the first time. The structural basis we provide helps to better understand non-motor STN functions and also offers a potential target for the treatment of sleep disturbance-related psychiatric disorders."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Python programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Data Analysis",
+        "Data visualization",
+        "3D animal behavior data analysis"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "Cantonese",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -163,38 +179,44 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Innate behavior",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Fear",
+        "Feeding",
+        "Hunting",
+        "Instinctive driven behavior"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "name": "Elaborate animal behavior analysis",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Deeplabcut",
+        "BehaviorAtlas",
+        "Moseq",
+        "3D animal skeleton reconstruction"
+      ]
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Neuroscience",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "State-of-the-art neuroscience techniques",
+        "Virus tools",
+        "Neuro monitoring and manipulation",
+        "Sexual dimorphism"
+      ]
+    },
+    {
+      "name": "Machine learning",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Computer vision",
+        "Transformers",
+        "Large language models",
+        "Time series analysis"
+      ]
     }
   ]
 }
