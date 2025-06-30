@@ -35,18 +35,54 @@
           </table>
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.studyType }}</a>
+          <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.studyType }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+            <a href="{{ content.url }}">{{ content.institution }}</a>
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
-          <ul class="items">
-            {% for item in content.courses %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
-            {% endfor %}
-          </ul>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+            <span style="font-weight:normal; color:inherit">Degree-awarding institute: </span><br>
+            {{ content.university}}
+          </h6>
+          {% if content.supervisor %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+              <span style="font-weight:normal; color:inherit">Supervisor: </span>
+              {% if content.supervisor.size %}
+                {% for s in content.supervisor %}
+                  <span style="font-weight:bold; color:#007bff">{{ s }}</span>{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+              {% else %}
+                <span style="font-weight:bold; color:#007bff">{{ content.supervisor }}</span>
+              {% endif %}
+            </h6>
+          {% endif %}
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+            <span style="font-weight:normal; color:inherit">Major: </span><br>
+            <span style="font-style: italic">{{ content.studyField }}</span>
+          </h6>
+          {% if content.projects %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-weight: normal; color: inherit;">
+              Projects:
+            </h6>
+            <ul class="items ml-2 ml-md-5" style="margin-left:1.2em; padding-left:0.8rem;">
+              {% for item in content.projects %}
+                <li style="margin-left:0; padding-left:0;">
+                  <span class="item">{{ item }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+          {% if content.courses %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-weight: normal; color: inherit;">
+              Courses:
+            </h6>
+            <ul class="items ml-2 ml-md-5" style="margin-left:1.2em; padding-left:0.8rem;">
+              {% for item in content.courses %}
+                <li style="margin-left:0; padding-left:0;">
+                  <span class="item">{{ item }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </div>
       </div>
     </li>
