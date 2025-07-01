@@ -22,7 +22,7 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'classifier-reborn'  # used for content categorization during the build
-    gem 'wdm', '>= 0.1.0'
+    gem 'wdm', '>= 0.1.0', :platforms => [:mswin, :mingw, :x64_mingw]
 end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
